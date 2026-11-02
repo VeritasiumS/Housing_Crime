@@ -1,0 +1,32 @@
+# Raw / large data files (keep these in shared Drive or re-download from the portals)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.zip
+*.gz
+data/raw/
+raw_data/
+
+# Exceptions: small files we DO want in the repo
+!community_area_table.csv
+!community_areas.geojson
+!data/processed/*.csv
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
